@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BE7BD7A060ECA35CBA4688 /* EmotionVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0583BA8FAFE8D16F548323 /* EmotionVariant.swift */; };
+		0743F0EFC4E76F514EA578BA /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7756EC2A572E43F74CC48 /* FriendDetailView.swift */; };
+		07CCCF84900B88E3BC663E52 /* EmotionLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F9A2352CC04460034D079 /* EmotionLetter.swift */; };
+		09FBAD1C2A17381EF867E800 /* RestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E73F31087A5287AFD2C26C /* RestScene.swift */; };
+		0B316CB650A76624BCF6B3BC /* TalkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477048EA7ECA402384664C4 /* TalkScene.swift */; };
+		0B6C1D4006404784611FB0C9 /* numb_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C3A323AB8C8CA80AD7FB8B /* numb_char_2.png */; };
+		0B9DD104E220D9D6501036FD /* home_mood_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E14CD5072B5C41752144038 /* home_mood_3.png */; };
+		0D7010409889CB9C015CE936 /* rest_bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A34C94DE6693F6A20E28E /* rest_bg_2.png */; };
+		116BACD53CC6662D01D04CDC /* healy_raft.png in Resources */ = {isa = PBXBuildFile; fileRef = C5311404E57E99E77D8911E6 /* healy_raft.png */; };
+		11C09EDCD7954AEDA93F2CDF /* rest_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 10477ECD9A94533B34AA776A /* rest_char_0.png */; };
+		138F432C72C18E0A5D859032 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6910AD6364D25B9239140C /* Haptics.swift */; };
+		13F51DC3BB38EDC0F2DA9891 /* healy_design_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EB8D6EFCE5CD3AC5F34336 /* healy_design_sheet.png */; };
+		15A5C69A1D311D212F194BDF /* rest_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E34625349E57D8EEF820E57C /* rest_char_2.png */; };
+		1D81616882852F05F91E6EBA /* VariantSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC670A021026632746BC06A6 /* VariantSelector.swift */; };
+		2057A7D9C0E5DE4582BD644E /* CustomEmotionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9446B92A934B2975C2ADB /* CustomEmotionSheet.swift */; };
+		22CABCD30A45ED59A182F45B /* ComfortMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0383A8BFC4E55EF11CDD2EE /* ComfortMapper.swift */; };
+		238DA65EB095571F710812BB /* EmotionCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632742C582B5784B53430E9 /* EmotionCalendarView.swift */; };
+		2A0DC648DF38B050FAF34C4C /* numb_gift_0.png in Resources */ = {isa = PBXBuildFile; fileRef = B984200A79D48E5C29169537 /* numb_gift_0.png */; };
+		2CA390DA3419E0FEAF37E088 /* CustomEmotionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61624D3A5DBD7F30AC08DF /* CustomEmotionStore.swift */; };
+		2D3FBA9CE998EC024EDF900B /* HealyBundleUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136771F1C8C97E6ABF882CDE /* HealyBundleUIImageView.swift */; };
+		3212C58F39941798667EE8A3 /* SandbagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A732AD544C432C1698F5F838 /* SandbagView.swift */; };
+		35264DC79CBA327ADFE7E452 /* eyes_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = 290CF5EDCC2901DFE26D79E1 /* eyes_closed.png */; };
+		371F0DA1B098E6FD58AC398C /* numb_bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8D182329690B8C99E3DF1 /* numb_bg_0.png */; };
+		376944E875432BA6EC761AB6 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE501FA49811FAF3E8DFE3B /* JournalEntryView.swift */; };
+		377BB49E3FFCF77CC66C2483 /* numb_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8239850AF6E12F1FA53F64A /* numb_char_1.png */; };
+		3AE2EFD065A8760E18FE78A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED8A0DACB62E539D535FFE /* HomeView.swift */; };
+		401C6306A58883C6A47D06F6 /* rest_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 10477ECD9A94533B34AA776A /* rest_char_0.png */; };
+		40DEF864B743502D44A3881A /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFECF4675DA3C79DE7A0EA4 /* JournalEntry.swift */; };
+		412D743E0EFBE3377742EB87 /* home_mood_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E36EC7E0648129C3948EE598 /* home_mood_5.png */; };
+		421F5C152D7AEBDA911D0F2E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91158C531131F5908909F9B3 /* AppState.swift */; };
+		431C3880D28007B22112602F /* TissueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23670305F745788AFBE7C54E /* TissueView.swift */; };
+		444240AAE392BA5B4EB0CFDD /* HealingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E577F73CFC6A39313959290D /* HealingModels.swift */; };
+		44EF747A6721235A399C17BF /* rest_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B5B35CD4F803F077C23F56 /* rest_char_1.png */; };
+		4711D99BC10EDD6FD9513672 /* home_mood_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D32DD6987FD8552908B1A77D /* home_mood_1.png */; };
+		474AF70EB684D2AE9A5234FE /* SavedComfortBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867F5E106D2C9CBAAC4AD1B /* SavedComfortBank.swift */; };
+		49B1BFF751C28E14672D3BE4 /* numb_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3112C1E29E4BCBABDD984604 /* numb_char_0.png */; };
+		4A45DA9B8B5636D8F93DFED6 /* SceneStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3405054B2072F1563B3C71D /* SceneStage.swift */; };
+		4B6BC40D09A7F149313A977C /* BlanketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CE7BBED2822F73A25941F0 /* BlanketView.swift */; };
+		4F2786AA2795223078180DAB /* HealyArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933C639E8BAB9425DB058EB /* HealyArt.swift */; };
+		5020AD077BD3B70CCC34CBCA /* EmotionAnimationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF408717D48A3CECB02F0C /* EmotionAnimationConfig.swift */; };
+		508DE1521ED33BAA062656AC /* DaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB10187A535AE09D6374CF3 /* DaySummary.swift */; };
+		514828506B65002F250F23D3 /* rest_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E34625349E57D8EEF820E57C /* rest_char_2.png */; };
+		5D85B9DB18EA6170C275189E /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFECF4675DA3C79DE7A0EA4 /* JournalEntry.swift */; };
+		5F68CB4570D93C944F12A3BE /* rest_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B5B35CD4F803F077C23F56 /* rest_char_1.png */; };
+		6B23B76A8B53C6A282789C86 /* CompanionReaction+HomePortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D6D494E0D8FA9F24C7D8 /* CompanionReaction+HomePortrait.swift */; };
+		6B85E9D6427918BEC2D4C3D0 /* home_mood_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E14CD5072B5C41752144038 /* home_mood_3.png */; };
+		6F07BD4F52286561A188AACC /* SavedComfortBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867F5E106D2C9CBAAC4AD1B /* SavedComfortBank.swift */; };
+		7004FB19A1A1BD11B816C921 /* home_mood_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E36EC7E0648129C3948EE598 /* home_mood_5.png */; };
+		713C6A94892ADC1047BA6167 /* LetterComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DABA9BEAE2D8C9DD6F59AC /* LetterComposeView.swift */; };
+		7230A8ADF2FC398D1C4B9B74 /* HomeCharacterPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612983031EBBB7EA97BEBEB /* HomeCharacterPortraitView.swift */; };
+		72C592D4FA384A03BBCAFBB2 /* eyes_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = 290CF5EDCC2901DFE26D79E1 /* eyes_closed.png */; };
+		76AADECC0486DCCEE5A2C417 /* home_mood_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD48F86767AD8346BA8E980 /* home_mood_0.png */; };
+		7B28EE2458D148E3032153E4 /* HomeCharacterPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612983031EBBB7EA97BEBEB /* HomeCharacterPortraitView.swift */; };
+		811500E16899EBCDC49D4866 /* home_mood_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1274B08CCFB3B81E55A73712 /* home_mood_2.png */; };
+		8148B20DC94CBC83B178D271 /* rest_bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AE6FA6DD4B798AC4A25854 /* rest_bg_0.png */; };
+		82FEB4BECA0A4E2DB419C36B /* numb_gift_0.png in Resources */ = {isa = PBXBuildFile; fileRef = B984200A79D48E5C29169537 /* numb_gift_0.png */; };
+		83654D62C904BE654FFC091A /* HealyBundleUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136771F1C8C97E6ABF882CDE /* HealyBundleUIImageView.swift */; };
+		84FB769056A488B722812371 /* numb_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C3A323AB8C8CA80AD7FB8B /* numb_char_2.png */; };
+		85005C4C03C3790638C0953A /* FriendsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18806C3ABEEE8676CE0A87D /* FriendsStore.swift */; };
+		852AFD1BB53C6AFE99637748 /* EmotionVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0583BA8FAFE8D16F548323 /* EmotionVariant.swift */; };
+		865E8149F7801A9EBBEAA493 /* AnimationModeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E841C341E758E416B8F938D /* AnimationModeEntryView.swift */; };
+		867B142720E14CCE6D354BE8 /* WorthlessScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291802AC17E2EE3B91A6B84 /* WorthlessScene.swift */; };
+		870A0438C329D3622E2DAA01 /* HealingWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6464B09B5FB1FA6641FE6 /* HealingWidgetBundle.swift */; };
+		8713992208006DECB8C92A04 /* AnimationSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C64817C68A09F664DC9307 /* AnimationSceneView.swift */; };
+		87816B8315A1196D5683E693 /* VariantSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC670A021026632746BC06A6 /* VariantSelector.swift */; };
+		87957379AD5D1395FA6A31BF /* LetterOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEFE9995D61EA9C6F639753 /* LetterOpenView.swift */; };
+		88E7FD9DDD4FB81BB73D4FA9 /* EmotionEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148C33A73DA9E488D48A7DF /* EmotionEntry.swift */; };
+		8A53AB861E83CB1FCED31116 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989A62B3C8EA1E6DBFEFA41 /* FlowerView.swift */; };
+		8CA066F2A0B51F5A4BB3ADE9 /* sunset_ocean_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EACB1657BCCF1B660FDAE1A6 /* sunset_ocean_background.png */; };
+		8D926B986C35A355CF278C59 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BB2F429DAA52AF143990E0 /* CharacterView.swift */; };
+		8FB1A57B624B554EA577F85E /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFB99A9FF54F1EF268FC00 /* MotionModifier.swift */; };
+		916A8ED53E6F7733AC850F2F /* home_mood_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD48F86767AD8346BA8E980 /* home_mood_0.png */; };
+		970ED0EA9ADF56C19970DEA3 /* ComfortToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92851D7FD24D6BAD8DE7EE2 /* ComfortToastView.swift */; };
+		979182F26AB5A436670D5365 /* CustomEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FCFB45EF0559B3941EEF14 /* CustomEmotion.swift */; };
+		9824195973E8AC7F88E61C4D /* ComfortTissueSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D77500A17C33594446F239C /* ComfortTissueSceneView.swift */; };
+		9BF18BE4A7CE8A438D1CBEDE /* rest_bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AE6FA6DD4B798AC4A25854 /* rest_bg_0.png */; };
+		9C5859523085FE12CD1127B1 /* EmotionIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE88807FFD249D1F3392E4 /* EmotionIntent.swift */; };
+		9CBFD2E69F698C4682C268DF /* LetterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF0ED4D1820D31F6F58B8E /* LetterStore.swift */; };
+		9FA2145BA86AD65E17F69B1D /* EmotionLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F9A2352CC04460034D079 /* EmotionLetter.swift */; };
+		A4ED3FDDE4FF34E941F107F7 /* numb_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3112C1E29E4BCBABDD984604 /* numb_char_0.png */; };
+		A5CF52CC2DAF053C3E633373 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B635AAAD4FF8E2E61B61AF41 /* JournalListView.swift */; };
+		AB9D1767CC40754133869DE7 /* HealingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFB1D9C058E446EA9FF47C /* HealingWidget.swift */; };
+		AEF3606F4F9011CC2BEB7D36 /* LetterInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB60E301652A035464857D2 /* LetterInboxView.swift */; };
+		B03A56E07CB25C6694849538 /* sunset_ocean_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EACB1657BCCF1B660FDAE1A6 /* sunset_ocean_background.png */; };
+		B40C6D318916E3EC02E527E4 /* BoxerCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F746088706B321F6AED124 /* BoxerCharacterView.swift */; };
+		B55C2FF6C613EA137B1B40F5 /* EmotionAnimationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF408717D48A3CECB02F0C /* EmotionAnimationConfig.swift */; };
+		B786124FE01968E270583D22 /* numb_char_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A5D6EEE6DD29B02E238678 /* numb_char_3.png */; };
+		B9F4B5E25ED4F61463EF2A90 /* JournalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734BB42141A31B4F5885D38A /* JournalStore.swift */; };
+		BA5D63996FFE8B91090309A1 /* HealingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E577F73CFC6A39313959290D /* HealingModels.swift */; };
+		BEEF6E53331E072DFB623D34 /* EmotionEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148C33A73DA9E488D48A7DF /* EmotionEntry.swift */; };
+		C1168352DE009C36E8808410 /* ComfortMessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B62A7F824D2DA2DA5F6D2 /* ComfortMessageStore.swift */; };
+		C1A91498976B553C20212133 /* healy_design_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EB8D6EFCE5CD3AC5F34336 /* healy_design_sheet.png */; };
+		C2235EE360623CD9A64C86CE /* home_mood_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 151C32F18DC89D867E5AD9CD /* home_mood_4.png */; };
+		C294BD5D885828EACE815E9B /* FriendsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71596345DA3E9BCE4384659 /* FriendsFeedView.swift */; };
+		C2A062ACDD2AA427DE373174 /* home_mood_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 151C32F18DC89D867E5AD9CD /* home_mood_4.png */; };
+		C45203E00598597E25DCF524 /* numb_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8239850AF6E12F1FA53F64A /* numb_char_1.png */; };
+		C66E94C6CDCF740CE91A3945 /* home_mood_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1274B08CCFB3B81E55A73712 /* home_mood_2.png */; };
+		C6ABACF45F7B5BB5798511E1 /* HealingCompanionWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 568F381593E244C2DDDDBF0D /* HealingCompanionWidgetExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C73478382D12ED370A656388 /* SavedComfortMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EE5A3299EB123FB51FC96 /* SavedComfortMessage.swift */; };
+		C94EA87D79C1612BB8A2AF97 /* rest_bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A34C94DE6693F6A20E28E /* rest_bg_2.png */; };
+		CA26C7653F37D5AED3661A29 /* SavedComfortMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EE5A3299EB123FB51FC96 /* SavedComfortMessage.swift */; };
+		CA3977D033C7F705BE76F609 /* ComfortMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0383A8BFC4E55EF11CDD2EE /* ComfortMapper.swift */; };
+		CD68FF6808A761BE23173F70 /* HealingCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385960C6BDA96A3E75FFD1D /* HealingCompanionApp.swift */; };
+		CE2602B4292C78D395D3F024 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B098FEB0E8F69E5FD96C8921 /* RootTabView.swift */; };
+		CF44D3127EB2B967C8A0E8C3 /* healy_raft.png in Resources */ = {isa = PBXBuildFile; fileRef = C5311404E57E99E77D8911E6 /* healy_raft.png */; };
+		D1F1A24C6229E8A38FC104A6 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFB99A9FF54F1EF268FC00 /* MotionModifier.swift */; };
+		D2B0AD101BCD16A42B962251 /* SceneBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FE2FA603E6D66D9EE01E7 /* SceneBehavior.swift */; };
+		D732E1B2CAEB0330AB825932 /* EmotionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6F7B6313CC047844BBC54 /* EmotionLog.swift */; };
+		D7DB910F55E470568BE984C4 /* ComfortCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B46B78EB8DAA56D44BCDC /* ComfortCharacterView.swift */; };
+		D98BEEAA2C2A7CA82D50F7DA /* ParticleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA1D1F1A4E81DB65858F3 /* ParticleEmitter.swift */; };
+		DDC422CE8EC62A949F5281E4 /* HealingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DE99D481D2CA24CCCD192 /* HealingStore.swift */; };
+		DF293A46E6D2F4624A8BB58D /* CustomTextBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E7D8C5ECD1E8A0999D976 /* CustomTextBadge.swift */; };
+		E05CC03AD651B2578AFBE049 /* HealyArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933C639E8BAB9425DB058EB /* HealyArt.swift */; };
+		E61F7ED9B4AFF0A229155F6F /* home_mood_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D32DD6987FD8552908B1A77D /* home_mood_1.png */; };
+		E68FBB01EC422DB9DFC55B90 /* SoftSparkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE63F22A8C34E824EF2B7A /* SoftSparkleView.swift */; };
+		F0224790A0142F88E9E19E37 /* EnvelopeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2209B281EDCD9C1F1BEE3D /* EnvelopeShape.swift */; };
+		F08259F1169D745578AF7433 /* rest_bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C8005DC9405D2824C4F1FC /* rest_bg_1.png */; };
+		F185C281F45AA52B1616679D /* rest_bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C8005DC9405D2824C4F1FC /* rest_bg_1.png */; };
+		F22CF9343BD36BE2585E277D /* SaveComfortMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9BFA48113CEE91D802065 /* SaveComfortMessageView.swift */; };
+		F4E9373C6503C33DFB42E8AA /* LetterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D5C52118E4D16BC7C266C /* LetterCardView.swift */; };
+		F57BE88E7EC70E0E0BD26745 /* ComfortSpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369DFFE8F7FB12E7A981B77 /* ComfortSpeechBubble.swift */; };
+		F5DE019DE0FC56BED5A607CF /* numb_bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8D182329690B8C99E3DF1 /* numb_bg_0.png */; };
+		F832B7107D5C7BDEAA1DE7BE /* CompanionReaction+HomePortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D6D494E0D8FA9F24C7D8 /* CompanionReaction+HomePortrait.swift */; };
+		F8C9120B33B89C569F48A5C9 /* DaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB10187A535AE09D6374CF3 /* DaySummary.swift */; };
+		F8D3402350FE4F157A9EEBC2 /* numb_char_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A5D6EEE6DD29B02E238678 /* numb_char_3.png */; };
+		F907E814E9FBE12F3212ED1A /* NumbScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E57B42E53DA8FB983DFC69 /* NumbScene.swift */; };
+		FA3AD263596179C359F911D9 /* AnnoyedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BC4F4F56A92E81F321D19 /* AnnoyedScene.swift */; };
+		A1B2C3D45E6F8008001000A0 /* annoyed_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A0 /* annoyed_char_0.png */; };
+		A1B2C3D45E6F8008001000A1 /* annoyed_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A1 /* annoyed_char_1.png */; };
+		A1B2C3D45E6F8008001000A2 /* annoyed_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A2 /* annoyed_char_2.png */; };
+		A1B2C3D45E6F8008001000A3 /* annoyed_gym_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A3 /* annoyed_gym_bg.png */; };
+		B1B2C3D45E6F8008001000B0 /* annoyed_char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A0 /* annoyed_char_0.png */; };
+		B1B2C3D45E6F8008001000B1 /* annoyed_char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A1 /* annoyed_char_1.png */; };
+		B1B2C3D45E6F8008001000B2 /* annoyed_char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A2 /* annoyed_char_2.png */; };
+		B1B2C3D45E6F8008001000B3 /* annoyed_gym_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008002000A3 /* annoyed_gym_bg.png */; };
+		A1B2C3D45E6F8008004000A0 /* worthless_night_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000A0 /* worthless_night_bg.png */; };
+		A1B2C3D45E6F8008004000B0 /* worthless_flower_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B0 /* worthless_flower_0.png */; };
+		A1B2C3D45E6F8008004000B1 /* worthless_flower_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B1 /* worthless_flower_1.png */; };
+		A1B2C3D45E6F8008004000B2 /* worthless_flower_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B2 /* worthless_flower_2.png */; };
+		A1B2C3D45E6F8008004000B3 /* worthless_flower_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B3 /* worthless_flower_3.png */; };
+		A1B2C3D45E6F8008004000B4 /* worthless_flower_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B4 /* worthless_flower_4.png */; };
+		A1B2C3D45E6F8008004000B5 /* worthless_flower_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B5 /* worthless_flower_5.png */; };
+		A1B2C3D45E6F8008005000A0 /* worthless_night_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000A0 /* worthless_night_bg.png */; };
+		A1B2C3D45E6F8008005000B0 /* worthless_flower_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B0 /* worthless_flower_0.png */; };
+		A1B2C3D45E6F8008005000B1 /* worthless_flower_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B1 /* worthless_flower_1.png */; };
+		A1B2C3D45E6F8008005000B2 /* worthless_flower_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B2 /* worthless_flower_2.png */; };
+		A1B2C3D45E6F8008005000B3 /* worthless_flower_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B3 /* worthless_flower_3.png */; };
+		A1B2C3D45E6F8008005000B4 /* worthless_flower_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B4 /* worthless_flower_4.png */; };
+		A1B2C3D45E6F8008005000B5 /* worthless_flower_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D45E6F8008003000B5 /* worthless_flower_5.png */; };
+		FA3BE7E37811B852F70CDCD5 /* CustomEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FCFB45EF0559B3941EEF14 /* CustomEmotion.swift */; };
+		FC9DC703B384D3B1144D1469 /* HealingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DE99D481D2CA24CCCD192 /* HealingStore.swift */; };
+		FF7C3574BA8E679A4B7309CE /* EmotionDayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6E7C842DC0DC9CBFE0C3 /* EmotionDayDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A99A260A6A54EC5E00F5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3EAA295B4C5720CC42FC924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16EAB1EE9EB871088FCA5058;
+			remoteInfo = HealingCompanionWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		470DB405E73E13EEF1881FC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C6ABACF45F7B5BB5798511E1 /* HealingCompanionWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CD48F86767AD8346BA8E980 /* home_mood_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_0.png; sourceTree = "<group>"; };
+		0CEFE9995D61EA9C6F639753 /* LetterOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOpenView.swift; sourceTree = "<group>"; };
+		10477ECD9A94533B34AA776A /* rest_char_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_char_0.png; sourceTree = "<group>"; };
+		111EE5A3299EB123FB51FC96 /* SavedComfortMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedComfortMessage.swift; sourceTree = "<group>"; };
+		1274B08CCFB3B81E55A73712 /* home_mood_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_2.png; sourceTree = "<group>"; };
+		136771F1C8C97E6ABF882CDE /* HealyBundleUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealyBundleUIImageView.swift; sourceTree = "<group>"; };
+		1369DFFE8F7FB12E7A981B77 /* ComfortSpeechBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortSpeechBubble.swift; sourceTree = "<group>"; };
+		151C32F18DC89D867E5AD9CD /* home_mood_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_4.png; sourceTree = "<group>"; };
+		1933C639E8BAB9425DB058EB /* HealyArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealyArt.swift; sourceTree = "<group>"; };
+		1E841C341E758E416B8F938D /* AnimationModeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModeEntryView.swift; sourceTree = "<group>"; };
+		20EE63F22A8C34E824EF2B7A /* SoftSparkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftSparkleView.swift; sourceTree = "<group>"; };
+		2269CA98992A3C0B3D7BD32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23670305F745788AFBE7C54E /* TissueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TissueView.swift; sourceTree = "<group>"; };
+		290CF5EDCC2901DFE26D79E1 /* eyes_closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes_closed.png; sourceTree = "<group>"; };
+		29DABA9BEAE2D8C9DD6F59AC /* LetterComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterComposeView.swift; sourceTree = "<group>"; };
+		3112C1E29E4BCBABDD984604 /* numb_char_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_char_0.png; sourceTree = "<group>"; };
+		32E30CF3478C23B68C7E549F /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		33C8005DC9405D2824C4F1FC /* rest_bg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_bg_1.png; sourceTree = "<group>"; };
+		38FF408717D48A3CECB02F0C /* EmotionAnimationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionAnimationConfig.swift; sourceTree = "<group>"; };
+		3989A62B3C8EA1E6DBFEFA41 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		3E2209B281EDCD9C1F1BEE3D /* EnvelopeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvelopeShape.swift; sourceTree = "<group>"; };
+		42AE6FA6DD4B798AC4A25854 /* rest_bg_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_bg_0.png; sourceTree = "<group>"; };
+		48E73F31087A5287AFD2C26C /* RestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestScene.swift; sourceTree = "<group>"; };
+		4AE501FA49811FAF3E8DFE3B /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		4CE6464B09B5FB1FA6641FE6 /* HealingWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealingWidgetBundle.swift; sourceTree = "<group>"; };
+		4D6910AD6364D25B9239140C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		4EDFB1D9C058E446EA9FF47C /* HealingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealingWidget.swift; sourceTree = "<group>"; };
+		568F381593E244C2DDDDBF0D /* HealingCompanionWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HealingCompanionWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB60E301652A035464857D2 /* LetterInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterInboxView.swift; sourceTree = "<group>"; };
+		60F746088706B321F6AED124 /* BoxerCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxerCharacterView.swift; sourceTree = "<group>"; };
+		61ED8A0DACB62E539D535FFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		63CE7BBED2822F73A25941F0 /* BlanketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlanketView.swift; sourceTree = "<group>"; };
+		6B2BC4F4F56A92E81F321D19 /* AnnoyedScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnoyedScene.swift; sourceTree = "<group>"; };
+		72AA7FECCC8695A69E08D4D3 /* HealingCompanionApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HealingCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734BB42141A31B4F5885D38A /* JournalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalStore.swift; sourceTree = "<group>"; };
+		73E57B42E53DA8FB983DFC69 /* NumbScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbScene.swift; sourceTree = "<group>"; };
+		7612983031EBBB7EA97BEBEB /* HomeCharacterPortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCharacterPortraitView.swift; sourceTree = "<group>"; };
+		782A34C94DE6693F6A20E28E /* rest_bg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_bg_2.png; sourceTree = "<group>"; };
+		7AE8D182329690B8C99E3DF1 /* numb_bg_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_bg_0.png; sourceTree = "<group>"; };
+		7B8DE99D481D2CA24CCCD192 /* HealingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealingStore.swift; sourceTree = "<group>"; };
+		7E8D5C52118E4D16BC7C266C /* LetterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCardView.swift; sourceTree = "<group>"; };
+		88BB2F429DAA52AF143990E0 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		8E14CD5072B5C41752144038 /* home_mood_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_3.png; sourceTree = "<group>"; };
+		91158C531131F5908909F9B3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9D77500A17C33594446F239C /* ComfortTissueSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortTissueSceneView.swift; sourceTree = "<group>"; };
+		9F61624D3A5DBD7F30AC08DF /* CustomEmotionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmotionStore.swift; sourceTree = "<group>"; };
+		A0FCFB45EF0559B3941EEF14 /* CustomEmotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmotion.swift; sourceTree = "<group>"; };
+		A3405054B2072F1563B3C71D /* SceneStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStage.swift; sourceTree = "<group>"; };
+		A385960C6BDA96A3E75FFD1D /* HealingCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealingCompanionApp.swift; sourceTree = "<group>"; };
+		A732AD544C432C1698F5F838 /* SandbagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandbagView.swift; sourceTree = "<group>"; };
+		A7A5D6EEE6DD29B02E238678 /* numb_char_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_char_3.png; sourceTree = "<group>"; };
+		A7BA6E7C842DC0DC9CBFE0C3 /* EmotionDayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDayDetailView.swift; sourceTree = "<group>"; };
+		AB798004A4E96337A13A172B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD90A52E640C59389A1E5AD8 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		AF0583BA8FAFE8D16F548323 /* EmotionVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionVariant.swift; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008002000A0 /* annoyed_char_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annoyed_char_0.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008002000A1 /* annoyed_char_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annoyed_char_1.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008002000A2 /* annoyed_char_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annoyed_char_2.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008002000A3 /* annoyed_gym_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annoyed_gym_bg.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000A0 /* worthless_night_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_night_bg.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B0 /* worthless_flower_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_0.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B1 /* worthless_flower_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_1.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B2 /* worthless_flower_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_2.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B3 /* worthless_flower_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_3.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B4 /* worthless_flower_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_4.png; sourceTree = "<group>"; };
+		A1B2C3D45E6F8008003000B5 /* worthless_flower_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worthless_flower_5.png; sourceTree = "<group>"; };
+		B098FEB0E8F69E5FD96C8921 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B2C64817C68A09F664DC9307 /* AnimationSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSceneView.swift; sourceTree = "<group>"; };
+		B632742C582B5784B53430E9 /* EmotionCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionCalendarView.swift; sourceTree = "<group>"; };
+		B635AAAD4FF8E2E61B61AF41 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		B71596345DA3E9BCE4384659 /* FriendsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsFeedView.swift; sourceTree = "<group>"; };
+		B81B46B78EB8DAA56D44BCDC /* ComfortCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortCharacterView.swift; sourceTree = "<group>"; };
+		B984200A79D48E5C29169537 /* numb_gift_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_gift_0.png; sourceTree = "<group>"; };
+		BC5F9A2352CC04460034D079 /* EmotionLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionLetter.swift; sourceTree = "<group>"; };
+		C2B9BFA48113CEE91D802065 /* SaveComfortMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveComfortMessageView.swift; sourceTree = "<group>"; };
+		C3E6F7B6313CC047844BBC54 /* EmotionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionLog.swift; sourceTree = "<group>"; };
+		C4C3A323AB8C8CA80AD7FB8B /* numb_char_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_char_2.png; sourceTree = "<group>"; };
+		C5311404E57E99E77D8911E6 /* healy_raft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healy_raft.png; sourceTree = "<group>"; };
+		C867F5E106D2C9CBAAC4AD1B /* SavedComfortBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedComfortBank.swift; sourceTree = "<group>"; };
+		C92851D7FD24D6BAD8DE7EE2 /* ComfortToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortToastView.swift; sourceTree = "<group>"; };
+		CCB9446B92A934B2975C2ADB /* CustomEmotionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmotionSheet.swift; sourceTree = "<group>"; };
+		D0383A8BFC4E55EF11CDD2EE /* ComfortMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortMapper.swift; sourceTree = "<group>"; };
+		D18806C3ABEEE8676CE0A87D /* FriendsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsStore.swift; sourceTree = "<group>"; };
+		D1B5B35CD4F803F077C23F56 /* rest_char_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_char_1.png; sourceTree = "<group>"; };
+		D291802AC17E2EE3B91A6B84 /* WorthlessScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorthlessScene.swift; sourceTree = "<group>"; };
+		D32DD6987FD8552908B1A77D /* home_mood_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_1.png; sourceTree = "<group>"; };
+		D4FEA1D1F1A4E81DB65858F3 /* ParticleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitter.swift; sourceTree = "<group>"; };
+		D8239850AF6E12F1FA53F64A /* numb_char_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numb_char_1.png; sourceTree = "<group>"; };
+		DBEFB99A9FF54F1EF268FC00 /* MotionModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionModifier.swift; sourceTree = "<group>"; };
+		DE5E7D8C5ECD1E8A0999D976 /* CustomTextBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextBadge.swift; sourceTree = "<group>"; };
+		E148C33A73DA9E488D48A7DF /* EmotionEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionEntry.swift; sourceTree = "<group>"; };
+		E34625349E57D8EEF820E57C /* rest_char_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest_char_2.png; sourceTree = "<group>"; };
+		E36EC7E0648129C3948EE598 /* home_mood_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_mood_5.png; sourceTree = "<group>"; };
+		E38FE2FA603E6D66D9EE01E7 /* SceneBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBehavior.swift; sourceTree = "<group>"; };
+		E3EB8D6EFCE5CD3AC5F34336 /* healy_design_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healy_design_sheet.png; sourceTree = "<group>"; };
+		E577F73CFC6A39313959290D /* HealingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealingModels.swift; sourceTree = "<group>"; };
+		EACB1657BCCF1B660FDAE1A6 /* sunset_ocean_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset_ocean_background.png; sourceTree = "<group>"; };
+		EFEF0ED4D1820D31F6F58B8E /* LetterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterStore.swift; sourceTree = "<group>"; };
+		F3A7756EC2A572E43F74CC48 /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
+		F477048EA7ECA402384664C4 /* TalkScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkScene.swift; sourceTree = "<group>"; };
+		F80B62A7F824D2DA2DA5F6D2 /* ComfortMessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortMessageStore.swift; sourceTree = "<group>"; };
+		FC43D6D494E0D8FA9F24C7D8 /* CompanionReaction+HomePortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompanionReaction+HomePortrait.swift"; sourceTree = "<group>"; };
+		FC670A021026632746BC06A6 /* VariantSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantSelector.swift; sourceTree = "<group>"; };
+		FCFE88807FFD249D1F3392E4 /* EmotionIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionIntent.swift; sourceTree = "<group>"; };
+		FEB10187A535AE09D6374CF3 /* DaySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummary.swift; sourceTree = "<group>"; };
+		FFFECF4675DA3C79DE7A0EA4 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C89F8A41089AC65194F754B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				63CE7BBED2822F73A25941F0 /* BlanketView.swift */,
+				60F746088706B321F6AED124 /* BoxerCharacterView.swift */,
+				B81B46B78EB8DAA56D44BCDC /* ComfortCharacterView.swift */,
+				1369DFFE8F7FB12E7A981B77 /* ComfortSpeechBubble.swift */,
+				DE5E7D8C5ECD1E8A0999D976 /* CustomTextBadge.swift */,
+				3989A62B3C8EA1E6DBFEFA41 /* FlowerView.swift */,
+				A732AD544C432C1698F5F838 /* SandbagView.swift */,
+				23670305F745788AFBE7C54E /* TissueView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		12EB78E60807C0E1BADC7890 /* HealingCompanionWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE88807FFD249D1F3392E4 /* EmotionIntent.swift */,
+				4EDFB1D9C058E446EA9FF47C /* HealingWidget.swift */,
+				4CE6464B09B5FB1FA6641FE6 /* HealingWidgetBundle.swift */,
+				2269CA98992A3C0B3D7BD32A /* Info.plist */,
+				AD90A52E640C59389A1E5AD8 /* Widget.entitlements */,
+			);
+			path = HealingCompanionWidgetExtension;
+			sourceTree = "<group>";
+		};
+		20A8EC5354D11CE14C87252C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6B2BC4F4F56A92E81F321D19 /* AnnoyedScene.swift */,
+				9D77500A17C33594446F239C /* ComfortTissueSceneView.swift */,
+				73E57B42E53DA8FB983DFC69 /* NumbScene.swift */,
+				48E73F31087A5287AFD2C26C /* RestScene.swift */,
+				F477048EA7ECA402384664C4 /* TalkScene.swift */,
+				D291802AC17E2EE3B91A6B84 /* WorthlessScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		28BE97C4D167638A6202802B /* CustomEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				CCB9446B92A934B2975C2ADB /* CustomEmotionSheet.swift */,
+			);
+			path = CustomEmotion;
+			sourceTree = "<group>";
+		};
+		4152900BFB36902A24920E35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				61ED8A0DACB62E539D535FFE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52ED034C7EE1BF1CB4722C9C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B632742C582B5784B53430E9 /* EmotionCalendarView.swift */,
+				A7BA6E7C842DC0DC9CBFE0C3 /* EmotionDayDetailView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		60F8B05C5F780E002C9405EC /* AnimationMode */ = {
+			isa = PBXGroup;
+			children = (
+				1E841C341E758E416B8F938D /* AnimationModeEntryView.swift */,
+				B2C64817C68A09F664DC9307 /* AnimationSceneView.swift */,
+				E38FE2FA603E6D66D9EE01E7 /* SceneBehavior.swift */,
+				A3405054B2072F1563B3C71D /* SceneStage.swift */,
+				0C89F8A41089AC65194F754B /* Components */,
+				20A8EC5354D11CE14C87252C /* Scenes */,
+			);
+			path = AnimationMode;
+			sourceTree = "<group>";
+		};
+		792399042E3721EF6EA25ACB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88BB2F429DAA52AF143990E0 /* CharacterView.swift */,
+				D4FEA1D1F1A4E81DB65858F3 /* ParticleEmitter.swift */,
+				20EE63F22A8C34E824EF2B7A /* SoftSparkleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8974A17E95F6C2826067D98A /* HealingCompanionApp */ = {
+			isa = PBXGroup;
+			children = (
+				32E30CF3478C23B68C7E549F /* App.entitlements */,
+				91158C531131F5908909F9B3 /* AppState.swift */,
+				4D6910AD6364D25B9239140C /* Haptics.swift */,
+				A385960C6BDA96A3E75FFD1D /* HealingCompanionApp.swift */,
+				AB798004A4E96337A13A172B /* Info.plist */,
+				B098FEB0E8F69E5FD96C8921 /* RootTabView.swift */,
+				60F8B05C5F780E002C9405EC /* AnimationMode */,
+				52ED034C7EE1BF1CB4722C9C /* Calendar */,
+				F6482907ADF876A6D503A134 /* Features */,
+				DB65C6949E7A4A87B57CB359 /* Friends */,
+				4152900BFB36902A24920E35 /* Home */,
+				BCE23D2321E2206F806E4DAB /* Stores */,
+				792399042E3721EF6EA25ACB /* Views */,
+			);
+			path = HealingCompanionApp;
+			sourceTree = "<group>";
+		};
+		8BD7B329703DA6B95C336A1F /* Letters */ = {
+			isa = PBXGroup;
+			children = (
+				3E2209B281EDCD9C1F1BEE3D /* EnvelopeShape.swift */,
+				7E8D5C52118E4D16BC7C266C /* LetterCardView.swift */,
+				29DABA9BEAE2D8C9DD6F59AC /* LetterComposeView.swift */,
+				5FB60E301652A035464857D2 /* LetterInboxView.swift */,
+				0CEFE9995D61EA9C6F639753 /* LetterOpenView.swift */,
+			);
+			path = Letters;
+			sourceTree = "<group>";
+		};
+		8F5AC3409B3FEA3F653484BF = {
+			isa = PBXGroup;
+			children = (
+				8974A17E95F6C2826067D98A /* HealingCompanionApp */,
+				12EB78E60807C0E1BADC7890 /* HealingCompanionWidgetExtension */,
+				A60FB0067AA8B483847B145F /* Resources */,
+				EB05A03B28129C845EC63506 /* Shared */,
+				A2B7072F073EEF82853AC64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B7072F073EEF82853AC64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7FECCC8695A69E08D4D3 /* HealingCompanionApp.app */,
+				568F381593E244C2DDDDBF0D /* HealingCompanionWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60FB0067AA8B483847B145F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EECFF5F5EB00E00EABF289C4 /* Healy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCE23D2321E2206F806E4DAB /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				F80B62A7F824D2DA2DA5F6D2 /* ComfortMessageStore.swift */,
+				9F61624D3A5DBD7F30AC08DF /* CustomEmotionStore.swift */,
+				C3E6F7B6313CC047844BBC54 /* EmotionLog.swift */,
+				D18806C3ABEEE8676CE0A87D /* FriendsStore.swift */,
+				734BB42141A31B4F5885D38A /* JournalStore.swift */,
+				EFEF0ED4D1820D31F6F58B8E /* LetterStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		DB65C6949E7A4A87B57CB359 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F3A7756EC2A572E43F74CC48 /* FriendDetailView.swift */,
+				B71596345DA3E9BCE4384659 /* FriendsFeedView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		E1274771F1BCD2B7E7C6436A /* Comfort */ = {
+			isa = PBXGroup;
+			children = (
+				C92851D7FD24D6BAD8DE7EE2 /* ComfortToastView.swift */,
+				C2B9BFA48113CEE91D802065 /* SaveComfortMessageView.swift */,
+			);
+			path = Comfort;
+			sourceTree = "<group>";
+		};
+		EB05A03B28129C845EC63506 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D0383A8BFC4E55EF11CDD2EE /* ComfortMapper.swift */,
+				FC43D6D494E0D8FA9F24C7D8 /* CompanionReaction+HomePortrait.swift */,
+				A0FCFB45EF0559B3941EEF14 /* CustomEmotion.swift */,
+				FEB10187A535AE09D6374CF3 /* DaySummary.swift */,
+				38FF408717D48A3CECB02F0C /* EmotionAnimationConfig.swift */,
+				E148C33A73DA9E488D48A7DF /* EmotionEntry.swift */,
+				BC5F9A2352CC04460034D079 /* EmotionLetter.swift */,
+				AF0583BA8FAFE8D16F548323 /* EmotionVariant.swift */,
+				E577F73CFC6A39313959290D /* HealingModels.swift */,
+				7B8DE99D481D2CA24CCCD192 /* HealingStore.swift */,
+				1933C639E8BAB9425DB058EB /* HealyArt.swift */,
+				136771F1C8C97E6ABF882CDE /* HealyBundleUIImageView.swift */,
+				7612983031EBBB7EA97BEBEB /* HomeCharacterPortraitView.swift */,
+				FFFECF4675DA3C79DE7A0EA4 /* JournalEntry.swift */,
+				DBEFB99A9FF54F1EF268FC00 /* MotionModifier.swift */,
+				C867F5E106D2C9CBAAC4AD1B /* SavedComfortBank.swift */,
+				111EE5A3299EB123FB51FC96 /* SavedComfortMessage.swift */,
+				FC670A021026632746BC06A6 /* VariantSelector.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EECFF5F5EB00E00EABF289C4 /* Healy */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D45E6F8008002000A0 /* annoyed_char_0.png */,
+				A1B2C3D45E6F8008002000A1 /* annoyed_char_1.png */,
+				A1B2C3D45E6F8008002000A2 /* annoyed_char_2.png */,
+				A1B2C3D45E6F8008002000A3 /* annoyed_gym_bg.png */,
+				A1B2C3D45E6F8008003000A0 /* worthless_night_bg.png */,
+				A1B2C3D45E6F8008003000B0 /* worthless_flower_0.png */,
+				A1B2C3D45E6F8008003000B1 /* worthless_flower_1.png */,
+				A1B2C3D45E6F8008003000B2 /* worthless_flower_2.png */,
+				A1B2C3D45E6F8008003000B3 /* worthless_flower_3.png */,
+				A1B2C3D45E6F8008003000B4 /* worthless_flower_4.png */,
+				A1B2C3D45E6F8008003000B5 /* worthless_flower_5.png */,
+				290CF5EDCC2901DFE26D79E1 /* eyes_closed.png */,
+				E3EB8D6EFCE5CD3AC5F34336 /* healy_design_sheet.png */,
+				C5311404E57E99E77D8911E6 /* healy_raft.png */,
+				0CD48F86767AD8346BA8E980 /* home_mood_0.png */,
+				D32DD6987FD8552908B1A77D /* home_mood_1.png */,
+				1274B08CCFB3B81E55A73712 /* home_mood_2.png */,
+				8E14CD5072B5C41752144038 /* home_mood_3.png */,
+				151C32F18DC89D867E5AD9CD /* home_mood_4.png */,
+				E36EC7E0648129C3948EE598 /* home_mood_5.png */,
+				7AE8D182329690B8C99E3DF1 /* numb_bg_0.png */,
+				3112C1E29E4BCBABDD984604 /* numb_char_0.png */,
+				D8239850AF6E12F1FA53F64A /* numb_char_1.png */,
+				C4C3A323AB8C8CA80AD7FB8B /* numb_char_2.png */,
+				A7A5D6EEE6DD29B02E238678 /* numb_char_3.png */,
+				B984200A79D48E5C29169537 /* numb_gift_0.png */,
+				42AE6FA6DD4B798AC4A25854 /* rest_bg_0.png */,
+				33C8005DC9405D2824C4F1FC /* rest_bg_1.png */,
+				782A34C94DE6693F6A20E28E /* rest_bg_2.png */,
+				10477ECD9A94533B34AA776A /* rest_char_0.png */,
+				D1B5B35CD4F803F077C23F56 /* rest_char_1.png */,
+				E34625349E57D8EEF820E57C /* rest_char_2.png */,
+				EACB1657BCCF1B660FDAE1A6 /* sunset_ocean_background.png */,
+			);
+			path = Healy;
+			sourceTree = "<group>";
+		};
+		F60B4F2DC7E763779B728978 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				4AE501FA49811FAF3E8DFE3B /* JournalEntryView.swift */,
+				B635AAAD4FF8E2E61B61AF41 /* JournalListView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		F6482907ADF876A6D503A134 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E1274771F1BCD2B7E7C6436A /* Comfort */,
+				28BE97C4D167638A6202802B /* CustomEmotion */,
+				F60B4F2DC7E763779B728978 /* Journal */,
+				8BD7B329703DA6B95C336A1F /* Letters */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EAB1EE9EB871088FCA5058 /* HealingCompanionWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D15BEAD9C0A1B4EC3095F83 /* Build configuration list for PBXNativeTarget "HealingCompanionWidgetExtension" */;
+			buildPhases = (
+				5D6085CE938DEF277E2C5552 /* Sources */,
+				E3A51CF384363B7F060DC854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealingCompanionWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = HealingCompanionWidgetExtension;
+			productReference = 568F381593E244C2DDDDBF0D /* HealingCompanionWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4F4BA92EDE0A2DB210A6D7DF /* HealingCompanionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5F1783A2E1F54EABC359C0 /* Build configuration list for PBXNativeTarget "HealingCompanionApp" */;
+			buildPhases = (
+				95DD71504D977772A520D68E /* Sources */,
+				CBDAE23F5527BDA8255C5275 /* Resources */,
+				470DB405E73E13EEF1881FC7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2EF7D0F8864E7D3814D1B3 /* PBXTargetDependency */,
+			);
+			name = HealingCompanionApp;
+			packageProductDependencies = (
+			);
+			productName = HealingCompanionApp;
+			productReference = 72AA7FECCC8695A69E08D4D3 /* HealingCompanionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EAA295B4C5720CC42FC924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					16EAB1EE9EB871088FCA5058 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					4F4BA92EDE0A2DB210A6D7DF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E36D2C22FB0E35DDE4742938 /* Build configuration list for PBXProject "HealingCompanion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8F5AC3409B3FEA3F653484BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2B7072F073EEF82853AC64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4BA92EDE0A2DB210A6D7DF /* HealingCompanionApp */,
+				16EAB1EE9EB871088FCA5058 /* HealingCompanionWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDAE23F5527BDA8255C5275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D45E6F8008001000A0 /* annoyed_char_0.png in Resources */,
+				A1B2C3D45E6F8008001000A1 /* annoyed_char_1.png in Resources */,
+				A1B2C3D45E6F8008001000A2 /* annoyed_char_2.png in Resources */,
+				A1B2C3D45E6F8008001000A3 /* annoyed_gym_bg.png in Resources */,
+				A1B2C3D45E6F8008004000A0 /* worthless_night_bg.png in Resources */,
+				A1B2C3D45E6F8008004000B0 /* worthless_flower_0.png in Resources */,
+				A1B2C3D45E6F8008004000B1 /* worthless_flower_1.png in Resources */,
+				A1B2C3D45E6F8008004000B2 /* worthless_flower_2.png in Resources */,
+				A1B2C3D45E6F8008004000B3 /* worthless_flower_3.png in Resources */,
+				A1B2C3D45E6F8008004000B4 /* worthless_flower_4.png in Resources */,
+				A1B2C3D45E6F8008004000B5 /* worthless_flower_5.png in Resources */,
+				72C592D4FA384A03BBCAFBB2 /* eyes_closed.png in Resources */,
+				C1A91498976B553C20212133 /* healy_design_sheet.png in Resources */,
+				CF44D3127EB2B967C8A0E8C3 /* healy_raft.png in Resources */,
+				76AADECC0486DCCEE5A2C417 /* home_mood_0.png in Resources */,
+				E61F7ED9B4AFF0A229155F6F /* home_mood_1.png in Resources */,
+				C66E94C6CDCF740CE91A3945 /* home_mood_2.png in Resources */,
+				0B9DD104E220D9D6501036FD /* home_mood_3.png in Resources */,
+				C2235EE360623CD9A64C86CE /* home_mood_4.png in Resources */,
+				7004FB19A1A1BD11B816C921 /* home_mood_5.png in Resources */,
+				371F0DA1B098E6FD58AC398C /* numb_bg_0.png in Resources */,
+				A4ED3FDDE4FF34E941F107F7 /* numb_char_0.png in Resources */,
+				C45203E00598597E25DCF524 /* numb_char_1.png in Resources */,
+				84FB769056A488B722812371 /* numb_char_2.png in Resources */,
+				F8D3402350FE4F157A9EEBC2 /* numb_char_3.png in Resources */,
+				2A0DC648DF38B050FAF34C4C /* numb_gift_0.png in Resources */,
+				8148B20DC94CBC83B178D271 /* rest_bg_0.png in Resources */,
+				F08259F1169D745578AF7433 /* rest_bg_1.png in Resources */,
+				0D7010409889CB9C015CE936 /* rest_bg_2.png in Resources */,
+				11C09EDCD7954AEDA93F2CDF /* rest_char_0.png in Resources */,
+				44EF747A6721235A399C17BF /* rest_char_1.png in Resources */,
+				514828506B65002F250F23D3 /* rest_char_2.png in Resources */,
+				B03A56E07CB25C6694849538 /* sunset_ocean_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A51CF384363B7F060DC854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B2C3D45E6F8008001000B0 /* annoyed_char_0.png in Resources */,
+				B1B2C3D45E6F8008001000B1 /* annoyed_char_1.png in Resources */,
+				B1B2C3D45E6F8008001000B2 /* annoyed_char_2.png in Resources */,
+				B1B2C3D45E6F8008001000B3 /* annoyed_gym_bg.png in Resources */,
+				A1B2C3D45E6F8008005000A0 /* worthless_night_bg.png in Resources */,
+				A1B2C3D45E6F8008005000B0 /* worthless_flower_0.png in Resources */,
+				A1B2C3D45E6F8008005000B1 /* worthless_flower_1.png in Resources */,
+				A1B2C3D45E6F8008005000B2 /* worthless_flower_2.png in Resources */,
+				A1B2C3D45E6F8008005000B3 /* worthless_flower_3.png in Resources */,
+				A1B2C3D45E6F8008005000B4 /* worthless_flower_4.png in Resources */,
+				A1B2C3D45E6F8008005000B5 /* worthless_flower_5.png in Resources */,
+				35264DC79CBA327ADFE7E452 /* eyes_closed.png in Resources */,
+				13F51DC3BB38EDC0F2DA9891 /* healy_design_sheet.png in Resources */,
+				116BACD53CC6662D01D04CDC /* healy_raft.png in Resources */,
+				916A8ED53E6F7733AC850F2F /* home_mood_0.png in Resources */,
+				4711D99BC10EDD6FD9513672 /* home_mood_1.png in Resources */,
+				811500E16899EBCDC49D4866 /* home_mood_2.png in Resources */,
+				6B85E9D6427918BEC2D4C3D0 /* home_mood_3.png in Resources */,
+				C2A062ACDD2AA427DE373174 /* home_mood_4.png in Resources */,
+				412D743E0EFBE3377742EB87 /* home_mood_5.png in Resources */,
+				F5DE019DE0FC56BED5A607CF /* numb_bg_0.png in Resources */,
+				49B1BFF751C28E14672D3BE4 /* numb_char_0.png in Resources */,
+				377BB49E3FFCF77CC66C2483 /* numb_char_1.png in Resources */,
+				0B6C1D4006404784611FB0C9 /* numb_char_2.png in Resources */,
+				B786124FE01968E270583D22 /* numb_char_3.png in Resources */,
+				82FEB4BECA0A4E2DB419C36B /* numb_gift_0.png in Resources */,
+				9BF18BE4A7CE8A438D1CBEDE /* rest_bg_0.png in Resources */,
+				F185C281F45AA52B1616679D /* rest_bg_1.png in Resources */,
+				C94EA87D79C1612BB8A2AF97 /* rest_bg_2.png in Resources */,
+				401C6306A58883C6A47D06F6 /* rest_char_0.png in Resources */,
+				5F68CB4570D93C944F12A3BE /* rest_char_1.png in Resources */,
+				15A5C69A1D311D212F194BDF /* rest_char_2.png in Resources */,
+				8CA066F2A0B51F5A4BB3ADE9 /* sunset_ocean_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D6085CE938DEF277E2C5552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CABCD30A45ED59A182F45B /* ComfortMapper.swift in Sources */,
+				6B23B76A8B53C6A282789C86 /* CompanionReaction+HomePortrait.swift in Sources */,
+				FA3BE7E37811B852F70CDCD5 /* CustomEmotion.swift in Sources */,
+				508DE1521ED33BAA062656AC /* DaySummary.swift in Sources */,
+				5020AD077BD3B70CCC34CBCA /* EmotionAnimationConfig.swift in Sources */,
+				BEEF6E53331E072DFB623D34 /* EmotionEntry.swift in Sources */,
+				9C5859523085FE12CD1127B1 /* EmotionIntent.swift in Sources */,
+				07CCCF84900B88E3BC663E52 /* EmotionLetter.swift in Sources */,
+				852AFD1BB53C6AFE99637748 /* EmotionVariant.swift in Sources */,
+				444240AAE392BA5B4EB0CFDD /* HealingModels.swift in Sources */,
+				DDC422CE8EC62A949F5281E4 /* HealingStore.swift in Sources */,
+				AB9D1767CC40754133869DE7 /* HealingWidget.swift in Sources */,
+				870A0438C329D3622E2DAA01 /* HealingWidgetBundle.swift in Sources */,
+				4F2786AA2795223078180DAB /* HealyArt.swift in Sources */,
+				83654D62C904BE654FFC091A /* HealyBundleUIImageView.swift in Sources */,
+				7B28EE2458D148E3032153E4 /* HomeCharacterPortraitView.swift in Sources */,
+				40DEF864B743502D44A3881A /* JournalEntry.swift in Sources */,
+				D1F1A24C6229E8A38FC104A6 /* MotionModifier.swift in Sources */,
+				6F07BD4F52286561A188AACC /* SavedComfortBank.swift in Sources */,
+				C73478382D12ED370A656388 /* SavedComfortMessage.swift in Sources */,
+				87816B8315A1196D5683E693 /* VariantSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DD71504D977772A520D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865E8149F7801A9EBBEAA493 /* AnimationModeEntryView.swift in Sources */,
+				8713992208006DECB8C92A04 /* AnimationSceneView.swift in Sources */,
+				FA3AD263596179C359F911D9 /* AnnoyedScene.swift in Sources */,
+				421F5C152D7AEBDA911D0F2E /* AppState.swift in Sources */,
+				4B6BC40D09A7F149313A977C /* BlanketView.swift in Sources */,
+				B40C6D318916E3EC02E527E4 /* BoxerCharacterView.swift in Sources */,
+				8D926B986C35A355CF278C59 /* CharacterView.swift in Sources */,
+				D7DB910F55E470568BE984C4 /* ComfortCharacterView.swift in Sources */,
+				CA3977D033C7F705BE76F609 /* ComfortMapper.swift in Sources */,
+				C1168352DE009C36E8808410 /* ComfortMessageStore.swift in Sources */,
+				F57BE88E7EC70E0E0BD26745 /* ComfortSpeechBubble.swift in Sources */,
+				9824195973E8AC7F88E61C4D /* ComfortTissueSceneView.swift in Sources */,
+				970ED0EA9ADF56C19970DEA3 /* ComfortToastView.swift in Sources */,
+				F832B7107D5C7BDEAA1DE7BE /* CompanionReaction+HomePortrait.swift in Sources */,
+				979182F26AB5A436670D5365 /* CustomEmotion.swift in Sources */,
+				2057A7D9C0E5DE4582BD644E /* CustomEmotionSheet.swift in Sources */,
+				2CA390DA3419E0FEAF37E088 /* CustomEmotionStore.swift in Sources */,
+				DF293A46E6D2F4624A8BB58D /* CustomTextBadge.swift in Sources */,
+				F8C9120B33B89C569F48A5C9 /* DaySummary.swift in Sources */,
+				B55C2FF6C613EA137B1B40F5 /* EmotionAnimationConfig.swift in Sources */,
+				238DA65EB095571F710812BB /* EmotionCalendarView.swift in Sources */,
+				FF7C3574BA8E679A4B7309CE /* EmotionDayDetailView.swift in Sources */,
+				88E7FD9DDD4FB81BB73D4FA9 /* EmotionEntry.swift in Sources */,
+				9FA2145BA86AD65E17F69B1D /* EmotionLetter.swift in Sources */,
+				D732E1B2CAEB0330AB825932 /* EmotionLog.swift in Sources */,
+				01BE7BD7A060ECA35CBA4688 /* EmotionVariant.swift in Sources */,
+				F0224790A0142F88E9E19E37 /* EnvelopeShape.swift in Sources */,
+				8A53AB861E83CB1FCED31116 /* FlowerView.swift in Sources */,
+				0743F0EFC4E76F514EA578BA /* FriendDetailView.swift in Sources */,
+				C294BD5D885828EACE815E9B /* FriendsFeedView.swift in Sources */,
+				85005C4C03C3790638C0953A /* FriendsStore.swift in Sources */,
+				138F432C72C18E0A5D859032 /* Haptics.swift in Sources */,
+				CD68FF6808A761BE23173F70 /* HealingCompanionApp.swift in Sources */,
+				BA5D63996FFE8B91090309A1 /* HealingModels.swift in Sources */,
+				FC9DC703B384D3B1144D1469 /* HealingStore.swift in Sources */,
+				E05CC03AD651B2578AFBE049 /* HealyArt.swift in Sources */,
+				2D3FBA9CE998EC024EDF900B /* HealyBundleUIImageView.swift in Sources */,
+				7230A8ADF2FC398D1C4B9B74 /* HomeCharacterPortraitView.swift in Sources */,
+				3AE2EFD065A8760E18FE78A7 /* HomeView.swift in Sources */,
+				5D85B9DB18EA6170C275189E /* JournalEntry.swift in Sources */,
+				376944E875432BA6EC761AB6 /* JournalEntryView.swift in Sources */,
+				A5CF52CC2DAF053C3E633373 /* JournalListView.swift in Sources */,
+				B9F4B5E25ED4F61463EF2A90 /* JournalStore.swift in Sources */,
+				F4E9373C6503C33DFB42E8AA /* LetterCardView.swift in Sources */,
+				713C6A94892ADC1047BA6167 /* LetterComposeView.swift in Sources */,
+				AEF3606F4F9011CC2BEB7D36 /* LetterInboxView.swift in Sources */,
+				87957379AD5D1395FA6A31BF /* LetterOpenView.swift in Sources */,
+				9CBFD2E69F698C4682C268DF /* LetterStore.swift in Sources */,
+				8FB1A57B624B554EA577F85E /* MotionModifier.swift in Sources */,
+				F907E814E9FBE12F3212ED1A /* NumbScene.swift in Sources */,
+				D98BEEAA2C2A7CA82D50F7DA /* ParticleEmitter.swift in Sources */,
+				09FBAD1C2A17381EF867E800 /* RestScene.swift in Sources */,
+				CE2602B4292C78D395D3F024 /* RootTabView.swift in Sources */,
+				3212C58F39941798667EE8A3 /* SandbagView.swift in Sources */,
+				F22CF9343BD36BE2585E277D /* SaveComfortMessageView.swift in Sources */,
+				474AF70EB684D2AE9A5234FE /* SavedComfortBank.swift in Sources */,
+				CA26C7653F37D5AED3661A29 /* SavedComfortMessage.swift in Sources */,
+				D2B0AD101BCD16A42B962251 /* SceneBehavior.swift in Sources */,
+				4A45DA9B8B5636D8F93DFED6 /* SceneStage.swift in Sources */,
+				E68FBB01EC422DB9DFC55B90 /* SoftSparkleView.swift in Sources */,
+				0B316CB650A76624BCF6B3BC /* TalkScene.swift in Sources */,
+				431C3880D28007B22112602F /* TissueView.swift in Sources */,
+				1D81616882852F05F91E6EBA /* VariantSelector.swift in Sources */,
+				867B142720E14CCE6D354BE8 /* WorthlessScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2EF7D0F8864E7D3814D1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16EAB1EE9EB871088FCA5058 /* HealingCompanionWidgetExtension */;
+			targetProxy = 91A99A260A6A54EC5E00F5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21C7DCF7F65816B906DA0F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		31D46A959A2E9CAD9315DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HealingCompanionWidgetExtension/Widget.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HealingCompanionWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healingcompanion.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49781F9466D7FBED086DDEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealingCompanionApp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HealingCompanionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healingcompanion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67ABD841222BDBD9B2D91FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B7669873D0FEAE178F3469DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealingCompanionApp/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HealingCompanionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healingcompanion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6FEB314E89EF06F628CD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HealingCompanionWidgetExtension/Widget.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HealingCompanionWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healingcompanion.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D15BEAD9C0A1B4EC3095F83 /* Build configuration list for PBXNativeTarget "HealingCompanionWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D46A959A2E9CAD9315DA9A /* Debug */,
+				DD6FEB314E89EF06F628CD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD5F1783A2E1F54EABC359C0 /* Build configuration list for PBXNativeTarget "HealingCompanionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49781F9466D7FBED086DDEA8 /* Debug */,
+				B7669873D0FEAE178F3469DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E36D2C22FB0E35DDE4742938 /* Build configuration list for PBXProject "HealingCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ABD841222BDBD9B2D91FBF /* Debug */,
+				21C7DCF7F65816B906DA0F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EAA295B4C5720CC42FC924 /* Project object */;
+}

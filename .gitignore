@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+build_out/
+DerivedData/
+DerivedDataLocal*/
+xcuserdata/
+*.xcuserstate
+
+# Xcode build artifacts
+*.xcarchive
+*.ipa
+
+# Swift/Xcode caches
+CompilationCache.noindex/
+Index.noindex/
+ModuleCache.noindex/
+SDKStatCaches.noindex/
+XCBuildData/

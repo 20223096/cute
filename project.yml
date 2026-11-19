@@ -1,0 +1,57 @@
+name: HealingCompanion
+options:
+  bundleIdPrefix: com.example.healingcompanion
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # PNG를 copypng로 재압축하지 않음 — 일러스트 번들 화질 유지
+    COMPRESS_PNG_FILES: NO
+
+targets:
+  HealingCompanionApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: HealingCompanionApp
+      - path: Shared
+      - path: Resources/Healy
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.healingcompanion
+        INFOPLIST_FILE: HealingCompanionApp/Info.plist
+        CODE_SIGN_ENTITLEMENTS: HealingCompanionApp/App.entitlements
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: "NO"
+        ENABLE_PREVIEWS: "YES"
+    dependencies:
+      - target: HealingCompanionWidgetExtension
+        embed: true
+        codeSign: true
+
+  HealingCompanionWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: HealingCompanionWidgetExtension
+      - path: Shared
+      - path: Resources/Healy
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.healingcompanion.widget
+        INFOPLIST_FILE: HealingCompanionWidgetExtension/Info.plist
+        CODE_SIGN_ENTITLEMENTS: HealingCompanionWidgetExtension/Widget.entitlements
+        GENERATE_INFOPLIST_FILE: "NO"
+        SKIP_INSTALL: "YES"
+        ENABLE_PREVIEWS: "YES"
